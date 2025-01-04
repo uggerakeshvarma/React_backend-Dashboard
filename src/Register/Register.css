@@ -1,0 +1,36 @@
+.ContainerRegisterr {
+  
+    border-radius: 20px;
+    width: 100%;
+    max-width: 37%;
+    height: 500px;
+    margin-left: 300px;
+    padding: 40px;
+    margin-top: 50px;
+    background-color: rgb(229, 237, 237);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ContainerRegisterr label {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.ContainerRegisterr input {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.ContainerRegisterr button {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 0px;
+    height: 40px;
+    background-color: green;
+    transition: all 0.2s ease;
+}
+.ContainerRegisterr button:hover {
+    background-color: rgb(16, 210, 38);
+    border-radius: 20px;
+}

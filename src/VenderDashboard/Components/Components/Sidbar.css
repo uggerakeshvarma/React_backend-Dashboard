@@ -1,0 +1,16 @@
+.sidebarSection {
+background-color: lightgray;
+    width: 100%;
+    max-width: 15%;
+    height: 85Vh;
+    padding: 10px;
+   
+}
+
+.sidebarSection ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+}

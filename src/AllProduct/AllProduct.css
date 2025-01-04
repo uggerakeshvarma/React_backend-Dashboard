@@ -1,0 +1,89 @@
+/* Basic table styles */
+.Product-Table {
+    width: 900px;
+    border-collapse: collapse;
+    margin: 20px 0;
+   height: 1000px;
+    margin-left: 100px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.Product-Table th,
+.Product-Table td {
+    padding: 19px 19px;
+   
+    text-align: left;
+    margin-left: 100px;
+    font-weight: 700;
+    border: 1px solid rgb(223, 215, 215);
+    border-bottom: 1px solid #ddd;
+}
+
+.Product-Table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.Product-Table tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Button styling */
+.Product-Table button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.Product-Table button:hover {
+    background-color: #e53935;
+}
+
+/* Styling the image */
+.Product-Table img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Add some spacing around the table */
+.Product-Table-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Loading/Error message styles */
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #ff6347;
+    margin-top: 20px;
+}
+
+.loading-message {
+    font-size: 18px;
+    color: #4CAF50;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Add a wrapper for better alignment */
+table {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Centering the table and managing the space around
+.Product-Table-wrapper {
+    margin: 0 auto;
+    width: 90%;
+    overflow-x: auto;
+} */
